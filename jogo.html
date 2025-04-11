@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra - Papel - Tesoura</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles.css/style.css">
+
+
+<body>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pedra | Papel | Tesoura</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./styles.css/style.css">
+    </head>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html"> Sobre</a>
+            <a class="cabecalho__menu__link" href="contact.html">Contato</a>
+        </nav>
+    </header>
+
+    <h1 class="titulo__jogo">PEDRA 🪨 PAPEL 🧻 TESOURA ✂️</h1>
+
+    <div class="container__jogo">
+        <div class="content__jogo">
+            <h2 class="jogo__subtitulo">Pra ganhar é preciso arriscar!</h2>
+            <p class="texto__jogo">Escolha sua jogada:</p>
+    
+            <div class="botoes__jogo"> 
+                <button onclick="jogar(1)">🪨 Pedra</button>
+                <button onclick="jogar(2)">🧻 Papel</button>
+                <button onclick="jogar(3)">✂️ Tesoura</button>
+            </div>
+    
+            <div id="resultado" class="resultado"></div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>Desenvolvido por Felipe Pierri Schmidt</p>
+        <p>Todos os direitos reservados.</p>
+    </footer>
+
+
+    <script src="jogo.js"></script>
+
+</body>
+
+</html>
