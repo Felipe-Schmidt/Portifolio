@@ -231,9 +231,17 @@ ul{
     line-height: 2;
 }
 
+/* Imagem do jogo mago*/
+.imagem__jogo{
+    border-radius: 50%;
+    height: 30rem;
+    margin-bottom:1em;
+}
+
 /* Container geral do jogo */
 .container__jogo {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 60vh;
